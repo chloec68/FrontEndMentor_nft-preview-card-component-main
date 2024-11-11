@@ -1,0 +1,122 @@
+/* GENERAL */
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* CARD */
+
+#wrapper{
+    width : 25%;
+    border-radius :10px;
+    background-color:hsl(216, 50%, 16%);
+    margin:auto;
+    padding : 25px;
+}
+
+/* IMAGE (cube) */
+
+#cube{
+    border-radius: 10px;
+    width:100%;
+    margin : auto;
+}
+/* PORTRAIT (author */
+
+#portrait{
+    width:10%;
+    border-radius:50px;
+    border: white 1px solid;
+}
+
+/* FONTS COLOR + FAMILY + SIZING */
+h1{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    padding-top: 10px;
+}
+
+em,h1{
+    color:white;
+}
+
+p,#daysLeft,#author{
+    color:hsl(215, 51%, 70%);
+}
+
+#eth{
+    color:hsl(178, 100%, 50%);
+}
+
+p,#author{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#eth,#daysLeft{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+/* ETH + DISPONIBILITY */ 
+
+#wrapper2{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+/* AUTHORS NAME */
+em{
+    font-style: normal;
+    margin-left:-13px;
+}
+
+/* AUTHORS NAME + PORTRAIT CONTAINER */
+
+#author{
+    display : flex;
+    align-items: center;
+    gap: 18px;
+    padding-top : 25px;
+}
+
+/* :HOVER */
+#cube:hover{
+    opacity : 10;
+}
+
+h1,em:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+#cube,h1,#eth,em:hover{
+    cursor:pointer;
+}
+
+
+/* MEDIA : MOBILE */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #wrapper{
+        min-width:80%;
+        margin-top: 80px;
+    }
+    }
+
+/* MEDIA : TABLETS */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #wrapper{
+        min-width:80%;
+        margin-top: 80px;
+    }
+    }
+
+
+
+
