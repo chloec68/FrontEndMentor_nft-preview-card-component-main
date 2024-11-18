@@ -10,7 +10,7 @@ body{
     width : 25%;
     border-radius :10px;
     background-color:hsl(216, 50%, 16%);
-    margin:auto;
+    margin:80px auto auto auto;
     padding : 25px;
 }
 
