@@ -6,7 +6,7 @@ body{
 
 /* CARD */
 
-#wrapper{
+#cardWrapper{
     width : 25%;
     border-radius :10px;
     background-color:hsl(216, 50%, 16%);
